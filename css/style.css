@@ -2,6 +2,12 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
 .navbar-desktop {
     display: none;
 }
@@ -67,12 +73,13 @@ body {
     margin: 6px 0;
 }
 
-.content {}
+---------------------------------------------------------------------------------------------------------------------------------------- .content {}
 
 .greensection {
     background-color: #365B3E;
     position: relative;
-    padding-bottom: 7rem;
+    padding-bottom: 9rem;
+    padding-top: 2rem;
 }
 
 .mountains {
@@ -85,15 +92,28 @@ body {
 }
 
 .greensection p {
+    color: #5A8461;
     text-align: center;
     margin: 0 3rem;
-    font-size: 2rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+
 }
+
+.greensection h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0.3rem;
+    font-size: 1.5rem;
+
+}
+
 
 .bluesection {
     background-color: #325E4C;
-    height: 400px;
+    height: auto;
     position: relative;
+    padding-bottom: 8rem;
 }
 
 .bluesection::before {
@@ -105,6 +125,84 @@ body {
     left: 0;
     transform: translateY(-50%);
 }
+
+
+.bluesection h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0.1rem;
+    font-size: 1.2rem;
+    padding-top: 8rem;
+    padding-bottom: 0.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.bluesection p {
+    color: #5A8461;
+    text-align: center;
+    margin: 0.3rem;
+    font-size: 1rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    padding-bottom: 1rem;
+
+}
+
+.bluesection h3 {
+    color: #fff;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background-color: #5A8461;
+    border-radius: 10px;
+}
+
+.bluesection h4 {
+    color: #5A8461;
+    text-align: center;
+    margin-top: 6rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.coffee img {
+    width: 5rem;
+}
+
+.1piccoffee {
+    justify-content: center;
+}
+
+h5 {
+    text-align: center;
+    text-align-last: center;
+    font-size: 2em;
+    color: white;
+}
+
+.between h5 {
+    align-self: center;
+
+}
+
+.coffee {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.infographic {
+    padding-bottom: 8rem;
+}
+
+}
+
 
 .yellowsection {
     background-color: #D1A63B;
@@ -206,4 +304,35 @@ body {
     height: auto;
 }
 
-/* remove this line */
+
+--------------------------------------------------------------------------------------------------------
+/* MEDIA QUIERY */
+
+@media only screen and (min-width: 320px) {
+
+    .greensection h2 {
+        text-align: left;
+
+    }
+
+    .greensection .equal {
+        text-align: right;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 480px) {
+
+    .bluesection h2 {
+        padding-top: 11rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) @media only screen and (min-width: 1024px)
